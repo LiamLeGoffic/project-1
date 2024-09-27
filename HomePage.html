@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Immersure Home</title>
+        <link rel="icon" href="images/IM.png">
+        <link rel="stylesheet" href="CSS/Base.css">
+        <link rel="stylesheet" href="CSS/HomePage.css">
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const letters = document.querySelectorAll("#animated-text span");
+                
+                letters.forEach((letter, index) => {
+                    letter.style.animationDelay = `${index * 0.15}s`; // Délai pour chaque lettre
+                });
+            });
+        </script>
+        
+    </head>
+
+    <body>
+        <ul id="navbar">
+            <li class="menu"><a style="background-color: #693668" href="HomePage.html">Home</a></li>
+            <li class="menu"><a href="Gallery.html">Galerie</a></li>
+            <li class="menu"><a href="Journey.html">Voyage</a></li>
+            <li class="menu"><a href="News.html">News</a></li>
+            <li class="menu"><a href="Events.html">Évènements</a></li>
+            <li class="menu"><a href="Contact.html">Contact</a></li>
+            <li class="menu"><a href="About.html">À propos</a></li>
+            <a href="HomePage.html" class="immersure">
+                <li class="brand">
+                    <img src="images/IM.png" alt="Logo" class="logo">
+                    MERSURE
+                </li>
+            </a>
+        </ul>
+
+        <div id="content">
+            <h1 id="animated-text">
+                <span>O</span>
+                <span>s</span>
+                <span>e</span>
+                <span>z</span>
+                <span> </span>
+                <span>l</span>
+                <span>'</span>
+                <span>i</span>
+                <span>m</span>
+                <span>m</span>
+                <span>e</span>
+                <span>r</span>
+                <span>s</span>
+                <span>i</span>
+                <span>o</span>
+                <span>n</span>
+                <span>.</span>
+                <span>.</span>
+                <span>.</span>
+            </h1>
+
+            <div id="directions">
+                <div class="direction dir1">
+                    <a href="Gallery.html">
+                        <div id="gallery">
+                            <img src="images/mountains-6544522_1280.jpg" alt="mountains" class="overlay-image" style="margin: 0% 0% 0% 10%;">
+                            <img src="images/trees-3822149_1280.jpg" alt="trees" class="overlay-image" style="margin: 5% 0% 0% 5%;">
+                            <img src="images/people-2561455_1280.jpg" alt="dawn" class="overlay-image" style="margin: 10% 0% 0% 0%;">    
+                        </div>
+                        <h2 class="page-name">
+                            Galerie
+                        </h2>
+                    </a>
+                </div>
+
+                <div class="direction dir2">
+                    <a href="Store.html">
+                        <img src="images/virtual-coworkers-3382503_1280.jpg" alt="handshake" class="direction-image">
+                        <h2 class="page-name">
+                            Voyage
+                        </h2>
+                    </a>
+                </div>
+
+                <div class="direction dir3">
+                    <a href="News.html">
+                        <img src="images/paper-3240345_1280.jpg" alt="news" class="direction-image">
+                        <h2 class="page-name">
+                            News
+                        </h2>
+                    </a>
+                </div>
+
+                <div class="direction dir4">
+                    <a href="Events.html">
+                        <img src="images/tent-548022_1280.jpg" alt="tent" class="direction-image">
+                        <h2 class="page-name">
+                            Évènements
+                        </h2>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>

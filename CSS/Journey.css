@@ -1,0 +1,89 @@
+
+body {
+    font-size: 15px;
+}
+
+#content {
+    padding: 50px 3% 3% 50px;
+}
+
+.journey {
+    display: flex;
+    border-radius: 30px;
+    padding: 1%;
+    background-color: #1B1B3A;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.journey-description {
+    text-align: justify;
+    padding: 1%;
+    width: 50%;
+}
+
+.price {
+    text-align: right;
+}
+
+.form-container {
+    width: 50%;
+}
+
+form {
+    text-align: center;
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input, select {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #ccc;
+    width: 70%;
+}
+
+.input-label {
+    width: 50%;
+    text-align: right;
+}
+
+.destination-container {
+    width: 100%;
+    margin: 0% 10%;
+}
+
+.checkbox-container {
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    width: 30px;
+    margin: 10px 15px;
+}
+
+button[type=submit] {
+  width: 50%;
+  background-color: #A74482;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+button[type=submit]:hover {
+    background-color: #693668;
+}

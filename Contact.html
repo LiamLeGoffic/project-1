@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Immersure Contact</title>
+        <link rel="icon" href="images/IM.png">
+        <link rel="stylesheet" href="CSS/Base.css">
+        <link rel="stylesheet" href="CSS/Contact.css">
+    </head>
+
+    <body>
+        <ul id="navbar">
+            <li class="menu"><a href="HomePage.html">Home</a></li>
+            <li class="menu"><a href="Gallery.html">Galerie</a></li>
+            <li class="menu"><a href="Journey.html">Voyage</a></li>
+            <li class="menu"><a href="News.html">News</a></li>
+            <li class="menu"><a href="Events.html">Évènements</a></li>
+            <li class="menu"><a style="background-color: #693668" href="Contact.html">Contact</a></li>
+            <li class="menu"><a href="About.html">À propos</a></li>
+            <a href="HomePage.html" class="immersure">
+                <li class="brand">
+                    <img src="images/IM.png" alt="Logo" class="logo">
+                    MERSURE
+                </li>
+            </a>
+        </ul>
+
+        <div id="content">
+            <div id="form-container">
+                <h1>Nous contacter</h1>
+                <form action="https://hnitest.go.yj.fr" id="myForm" method="post">
+                    <label for="fname">Prénom :</label>
+                    <input type="text" id="fname" placeholder="John" name="firstname" required>
+                    <label for="lname">Nom :</label>
+                    <input type="text" id="lname" placeholder="Doe" name="lastname" required>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" placeholder="JohnDoe@mail.com" name="email" required>
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" placeholder="Message" name="request" required></textarea>
+                    <label>Nationalité :</label>
+                    <select name="country" id="country">
+                        <option value="France">France</option>
+                        <option value="Belgique">Belgique</option>
+                        <option value="Andorre">Andorre</option>
+                    </select>
+                    <button type="submit">Valider</button>
+                </form>
+            </div>
+        </div>
+        
+    </body>
+</html>

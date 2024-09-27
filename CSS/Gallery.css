@@ -1,0 +1,72 @@
+
+#content {
+    padding: 50px 9% 100px 9%;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.image {
+    width: 374px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image img {
+    height: 40vh;
+    width: auto;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: 0;
+    animation: appearance 2s forwards;
+}
+
+/* Animation */
+@keyframes appearance {
+    to {
+        opacity: 1;
+    }
+}
+
+.image .img1 {
+    animation-delay: 0.5s;
+}
+
+.image .img2 {
+    animation-delay: 1s;
+}
+
+.image .img3 {
+    animation-delay: 1.5s;
+}
+
+.image .img4 {
+    animation-delay: 2s;
+}
+
+.image .img5 {
+    animation-delay: 2.5s;
+}
+
+.image .img6 {
+    animation-delay: 3s;
+}
+
+.image .img7 {
+    animation-delay: 3.5s;
+}
+
+.image .img8 {
+    animation-delay: 4s;
+}
+
+.image .img9 {
+    animation-delay: 4.5s;
+}
+
+.image .img10 {
+    animation-delay: 5s;
+}

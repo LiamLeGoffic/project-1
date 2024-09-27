@@ -1,0 +1,74 @@
+
+body {
+    background-image: url("../images/tent-5441144_1280.jpg");
+    background-size: 960px 100%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    font-size: 2vh;
+    color: #A74482;
+    width: 960px;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Masque la barre de défilement */
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    padding-top: 70px;
+    margin: 0 auto;
+}
+
+
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B1B3A;
+    position: fixed;
+    width: 950.4px;
+    border-radius: 10px;
+    font-size: 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu {
+    float: left;
+}
+  
+.menu a {
+    display: block;
+    color: #A74482;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+  
+.menu a:hover {
+    background-color: #693668;
+}
+
+.immersure {
+    display: flex;
+    padding: 5px 20px;
+    margin-left: auto;
+}
+
+.brand {
+    color: #A74482;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 24.4px;
+}
+

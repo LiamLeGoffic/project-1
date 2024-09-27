@@ -1,0 +1,92 @@
+
+body {
+    overflow: hidden;
+}
+
+#animated-text {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    overflow: hidden;
+    letter-spacing: -15px;
+}
+
+span {
+    display: inline-block; /* Permet d'animer chaque lettre individuellement */
+    opacity: 0; /* Commence invisible */
+    transform: translateX(50px); /* Déplace la lettre vers la droite */
+    animation: slideIn 0.5s forwards; /* Applique l'animation */
+}
+
+/* Animation */
+@keyframes slideIn {
+    to {
+        opacity: 1; /* Rends la lettre visible */
+        transform: translateX(0); /* Ramène la lettre à sa position originale */
+    }
+}
+
+#directions {
+    display: flex;
+    margin-top: 15%;
+}
+
+.direction {
+    width: 20%;
+    height: 20vh;
+    margin-left: 3%;
+    margin-right: 1%;
+    padding-bottom: 0;
+    opacity: 0;
+    transform: translateX(50px);
+    animation: slideIn 2s forwards;
+}
+
+.dir1 {
+    animation-delay: 3s;
+}
+
+.dir2 {
+    animation-delay: 4s;
+}
+
+.dir3 {
+    animation-delay: 5s;
+}
+
+.dir4 {
+    animation-delay: 6s;
+}
+
+#gallery{
+    display: grid;
+    grid-template-areas: 'stack';
+
+}
+
+.overlay-image {
+    border: 3px solid black;
+    border-radius: 10px;
+    grid-area: stack;
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+}
+
+.page-name {
+    color: #FF3562;
+    font-size: 200%;
+    font-style: italic;
+    text-align: center;
+}
+
+.direction-image {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 10% 0% 0% 0%;
+    max-height: 65%;
+}
