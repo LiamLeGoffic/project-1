@@ -43,19 +43,19 @@ span {
 }
 
 .dir1 {
-    animation-delay: 3s;
+    animation-delay: 2s;
 }
 
 .dir2 {
-    animation-delay: 4s;
+    animation-delay: 2.6s;
 }
 
 .dir3 {
-    animation-delay: 5s;
+    animation-delay: 3.2s;
 }
 
 .dir4 {
-    animation-delay: 6s;
+    animation-delay: 3.8s;
 }
 
 #gallery{

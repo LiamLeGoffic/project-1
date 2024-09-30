@@ -1,12 +1,8 @@
 
-body {
-    overflow: hidden;
-}
-
 #form-container {
     text-align: center;
     background-color: #1B1B3A;
-    margin: 30px 20% 0px 20%;
+    margin: 30px 20% 30px 20%;
     padding: 10px 10px 30px 10px;
     border-radius: 10px;
 }
